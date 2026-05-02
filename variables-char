@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main(){
+    //single character- char 
+    char grade = 'A';
+    char initial = 'B';
+    char currency = '$';
+
+    std::cout<<initial;
+    std::cout<<currency;
+
+    return 0;
+}
