@@ -1,0 +1,22 @@
+#include <iostream>
+#include <vector>
+
+typedef std::vector<std::pair<std::string, int>> pairlist_t;
+
+//typedef - reserved keyword used
+//to create an alias for another data type
+
+typedef std::string text_t;
+typedef int number_t;
+
+int main(){
+    pairlist_t pairlist;
+
+    text_t firstName= "victoria";
+    std::cout<<firstName<<'\n';
+
+    number_t age = 19;
+    std::cout<<age<<'\n';
+
+    return 0;
+}
