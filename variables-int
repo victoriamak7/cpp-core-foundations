@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main(){
+    int x; //declaration (integer)
+    x = 5; //asignment
+    //int x = 5; (same thing)
+
+    int y = 2;
+
+    int sum = x + y;
+    int mult = x * y;
+
+    std::cout<<x<<'\n';
+    std::cout<<y<<'\n';
+    std::cout<<sum<<'\n';
+    std::cout<<mult<<'\n';
+
+    return 0;
+}
