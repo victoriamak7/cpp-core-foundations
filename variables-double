@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main(){
+    double price = 10.99; 
+    double gpa = 4.9;
+    double temp = 25.1;
+    
+    //double- number including decimal
+    
+    std::cout<<price;
+
+    return 0;
+}
