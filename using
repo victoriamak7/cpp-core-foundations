@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+
+//new identifier = old identifier
+
+using text_t = std::string;
+using number = int;
+
+int main(){
+    text_t firstName = "victoria";
+    std::cout<<firstName;
+
+    return 0;
+}
