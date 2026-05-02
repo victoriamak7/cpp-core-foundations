@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main(){
+    //boolean - true or false
+
+    bool student = true;
+    bool power = false;
+    bool forsale = true;
+
+    return 0;
+}
