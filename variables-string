@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main(){
+    //string- sequence of text
+
+    std::string name = "victoria";
+    std::cout<<"Hello "<<name<<'\n';
+
+    std::string day = "monday";
+    std::cout<<day<<'\n';
+
+    std::string food = "sushi";
+    std::cout<<"my favorite food is "<<food;
+
+    return 0;
+
+}
