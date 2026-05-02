@@ -1,0 +1,30 @@
+#include <iostream>
+
+//order of arithmetic operations:
+//1)parenthesis
+//2)multiplication & division
+//3)addition & subtraction
+
+int main(){
+    int students = 20;
+
+    students ++; //same as students = students +1;
+    std::cout<<students<<'\n';
+
+    students--; //students = students - 1;
+    std::cout<<students<<'\n';
+
+    students *=2; //students = students *2;
+    std::cout<<students<<'\n';
+
+    students /=2; //students = students / 2;
+    std::cout<<students<<'\n';
+
+    int remainder = students % 2 ;
+    std::cout<<remainder<<'\n';
+
+    remainder = students % 3;
+    std::cout<<remainder<<'\n';
+
+    return 0;
+}
