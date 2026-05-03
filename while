@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main(){
+    std::string name; 
+//while repeats code infinetly
+
+
+    while(name.empty()){
+        std::cout<<"enter tour name: ";
+        std::getline(std::cin, name);
+    }
+
+    std::cout<<"hi "<<name;
+
+    return 0;
+
+
+
+    while(1==1){
+        std::cout<<"HELP IM STUCK IN AN INFITINE LOOP!!!!";
+    }
+
+    return 0;
+}
