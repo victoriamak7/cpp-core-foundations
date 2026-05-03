@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main(){
+    //&& - check if two cond are true
+    // || - check if at least one of two cond is true
+    // ! - reverses the logical state of its operand
+
+    int temp;
+    bool sunny = true;
+
+    std::cout<<"enter the temp: ";
+    std::cin>>temp;
+
+    if(temp>0 && temp < 30){
+        std::cout<<"the temp is good"<<'\n';
+
+    }else{
+        std::cout<<"the temp is bad"<<'\n';
+    }
+
+    if(temp < 30 || temp > 30 ){
+        std::cout<<"the temp is good"<<'\n';
+
+    }else{
+        std::cout<<"the temp is bad"<<'\n';
+    }
+
+    if (!sunny){
+        std::cout<<"it is cloudy"<<'\n';
+
+    }else{
+        std::cout<<"its sunny"<<'\n';
+    }
+
+    return 0;
+}
