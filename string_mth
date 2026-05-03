@@ -1,0 +1,38 @@
+#include <iostream>
+
+int main(){
+    std::string name;
+
+    std::cout<<"enter your name: ";
+    std::getline(std::cin, name);
+
+    if (name.length()>12){ //checks length
+        std::cout<<"your name cant be over 12 characters!\n";
+    }else{
+        std::cout<<"welcome"<<name;
+    }
+
+    if (name.empty()){ //checks if empty
+        std::cout<<"you didnt enter your name";
+    } else{
+        std::cout<<"hello"<<name;
+    }
+
+    name.clear();
+    std::cout<<"hi"<<name;
+
+    name.append("@gmail.com");
+    std::cout<<"your username is "<<name;
+
+    std::cout<<name.at(0); //displays characters place
+
+    name.insert(0,"@");
+    std::cout<<name;
+
+    std::cout<<name.find(' ');
+
+    name.erase(0,3);
+    std::cout<<name;
+
+    return 0;
+}
