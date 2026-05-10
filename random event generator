@@ -1,0 +1,23 @@
+#include <iostream>
+#include <ctime>
+
+int main(){
+
+    srand(time(0));
+    int randNum = rand() % 5 + 1; //num 1-5
+
+    switch(randNum){
+        case 1: std::cout<<"you win a miu miu bag!!\n";
+            break;
+        case 2: std::cout<<"you win a chanel bag!!\n";
+            break;
+        case 3: std::cout<<"you win a lady dior bag!!\n";
+            break;
+        case 4: std::cout<<"you win a vintage dior baby tee!!\n";
+            break;
+        case 5: std::cout<<"you win a prada headband!!\n";
+            break;
+        default: std::cout<<"enter a number from 1-5 :))";
+    }
+    return 0; 
+}
