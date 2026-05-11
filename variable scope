@@ -1,0 +1,21 @@
+#include <iostream>
+
+//local variable- declared inside a function or block{}
+//global variable- declared outside of all functions
+int myNum = 3;
+
+void printNum(){
+    int myNum = 2;
+    std::cout<<::myNum<<'\n'; //to use the global versin use ::
+}
+
+int main(){
+    int myNum = 1;
+    printNum();
+    std::cout<<::myNum<<'\n';
+
+    
+
+
+    return 0;
+}
