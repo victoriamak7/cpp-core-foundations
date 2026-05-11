@@ -1,0 +1,24 @@
+#include <iostream>
+
+void bake(){
+    std::cout<<"hear is your dish\n";
+}
+
+void bake(std::string topping1){
+    std::cout<<"here is your "<<topping1<<"pizza\n";
+}
+
+void bake(std::string topping1, std::string topping2){
+    std::cout<<"here is your "<<topping1<<" and "<<topping2<<" pizza\n";
+}
+
+int main(){
+
+    bake("ham", "pineapple");
+
+
+    return 0;
+}
+
+//functions can share the same name, but they need different
+//set of perimeters
