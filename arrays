@@ -1,0 +1,23 @@
+#include <iostream>
+
+//arrays- a data structure that can hold multiple values
+//value values are accessed by an index number
+//kind of like a variable that holds multiple values
+
+int main(){
+    std::string car[] = {"corvette", "mustang", "porsche"}; //should be same data type
+    std::cout<<car[1];
+
+    car[0] = "corvette"; //reasin=gnning
+    std::cout<<car[0];
+
+    int prices[4] = {5,7,11,31};
+
+    std::cout<<prices[0]<<'\n';
+    std::cout<<prices[1]<<'\n';
+    std::cout<<prices[2]<<'\n';
+    std::cout<<prices[3]<<'\n';
+
+
+
+}
