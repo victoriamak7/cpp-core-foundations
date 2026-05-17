@@ -1,0 +1,17 @@
+#include <iostream>
+//foreach loop- loop that eases the travelsal over an iterable data set
+int main(){
+
+    std::string people[] = {"pj", "dj", "cj"}; //u can add ppl
+    int grades[] = {93, 34, 78, 89};
+
+    for(std::string person : people){
+        std::cout<<person<<'\n';
+    }
+
+    for(int grade : grades){
+        std::cout<< grade<<'\n';
+    }
+
+
+}
