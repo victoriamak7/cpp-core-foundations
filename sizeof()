@@ -1,0 +1,12 @@
+#include <iostream>
+
+//sizeof() - determines the size in bites of a:
+//variable, data type, class, object, etc.
+
+int main(){
+    std::string name = "vic";
+    double gpa = 5.0;
+
+    std::cout<<sizeof(gpa)<<"bytes\n";
+    std::cout<<sizeof(name)<<"bytes\n";
+}
