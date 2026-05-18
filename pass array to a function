@@ -1,0 +1,19 @@
+#include <iostream>
+
+double getTotal(double prices[], int size){
+    double total = 0;
+
+    for(int i = 0; i < sizeof(prices)/sizeof(prices[0]); i++){
+        total = total + prices[i];
+
+    }
+}
+int main(){
+    double prices[] = {7.0, 9.0, 11.39, 1223.01};
+    int size = sizeof(prices)/sizeof(prices[0]);
+    double total = getTotal(prices, size);
+
+    std::cout<<"$"<<total;
+}
+
+//pass array to a function
